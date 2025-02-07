@@ -1,0 +1,151 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    font-family: 'Archivo';
+}
+
+h3 {
+margin-block-start: 0%;
+margin-block-end: 0%;
+}
+
+p {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+header {
+    justify-items: center;
+    padding-top: 14px;
+}
+
+.link-social ul {
+    align-items: center;
+    padding: 0;
+    display: flex;
+    font-size: 17px;
+    list-style: none; 
+}
+
+.link-social ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    
+}
+
+.container{
+    padding: 5%;
+}
+
+.menu {
+    list-style: none;   
+    padding-bottom: 10px;
+
+}
+
+.menu li{
+
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a h3{
+    text-decoration: none;
+    color: black;
+    padding-top:  20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+
+.menu a p{
+    text-decoration: none;
+    color: black;
+
+    padding-left: 20px;
+    padding-bottom: 15px;
+    list-style: none;
+
+}
+
+.menu a h3:hover{
+    text-decoration: underline;
+}
+
+.choose {
+    border: #fff ;
+    border-radius: 10px;
+    background-color: #fff;
+    left: 1px;
+    margin-bottom: 10px;
+
+}
+
+footer{
+    justify-items: center;
+}
+
+@media screen and (min-width: 700px){
+    header {
+        justify-items: center;
+        padding-top: 20px;
+    }
+
+    .container{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    
+    .menu {
+        list-style: none;   
+        padding-bottom: 10px;
+    
+    }
+    
+    .menu a {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu a h3{
+        text-decoration: none;
+        color: black;
+        padding-top:  20px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        list-style: none;
+    }
+    
+    
+    .menu a p{
+        text-decoration: none;
+        color: black;
+    
+        padding-left: 20px;
+        padding-bottom: 15px;
+        list-style: none;
+    
+    }
+    
+    .menu a h3:hover{
+        text-decoration: underline;
+    }
+    
+    .choose {
+        border: #fff ;
+        border-radius: 10px;
+        background-color: #fff;
+        left: 1px;
+        margin-bottom: 10px;
+    
+    }
+}
