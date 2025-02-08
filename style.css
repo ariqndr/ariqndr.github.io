@@ -1,3 +1,9 @@
+* {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+
 html {
     margin: 0;
     padding: 0;
@@ -6,19 +12,10 @@ html {
     font-family: 'Archivo';
 }
 
-h3 {
-margin-block-start: 0%;
-margin-block-end: 0%;
-}
-
-p {
-    margin-block-start: 0%;
-    margin-block-end: 0%;
-}
 
 header {
     justify-items: center;
-    padding-top: 14px;
+    padding: 20px;
 }
 
 .link-social ul {
@@ -30,53 +27,38 @@ header {
 }
 
 .link-social ul li{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     font-size: 17px;
-    
 }
 
-.container{
+body {
     padding: 5%;
 }
 
-.menu {
+.container{
     list-style: none;   
-    padding-bottom: 10px;
-
+    padding: 10px;
+    padding-top: 10px;
 }
 
-.menu li{
-
+.menu {
+    padding-top: 20px
 }
 
-.menu a {
+.choose a {
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
-.menu a h3{
+.choose-info {
     text-decoration: none;
     color: black;
-    padding-top:  20px;
-    padding-left: 20px;
-    padding-bottom: 15px;
     list-style: none;
+    padding: 20px;
 }
 
-
-.menu a p{
-    text-decoration: none;
-    color: black;
-
-    padding-left: 20px;
-    padding-bottom: 15px;
-    list-style: none;
-
-}
-
-.menu a h3:hover{
+.choose-info h3:hover{
     text-decoration: underline;
 }
 
@@ -86,7 +68,20 @@ header {
     background-color: #fff;
     left: 1px;
     margin-bottom: 10px;
+    justify-items: center;
 
+}
+
+.choose img {
+    width: 7%;
+    height: auto;
+    margin: 20px;
+}
+
+.with-img a {
+    display: flex;
+    left: 10%;
+    align-items: center;
 }
 
 footer{
@@ -114,6 +109,7 @@ footer{
         text-decoration: none;
         margin: 0;
         padding: 0;
+
     }
     
     .menu a h3{
